@@ -34,11 +34,11 @@ const COMPONENT = () => {
                   </div>
                   <div className="-mt-1">
                     <div className="leading-none">
-                      <span className="text-[13px] sm:text-[14px] font-semibold">
+                      <span className="text-[13px] font-semibold sm:text-[14px]">
                         Prashant Singh
                       </span>
                     </div>
-                    <div className="mt-[4px] flex text-[11px] sm:text-[12px] items-center font-medium leading-none text-gray-600">
+                    <div className="mt-[4px] flex items-center text-[11px] font-medium leading-none text-gray-600 sm:text-[12px]">
                       <div>
                         <span>{component.date}</span>
                       </div>
@@ -46,17 +46,17 @@ const COMPONENT = () => {
                       <div className="flex items-center gap-[2px]">
                         {component.difficulty === "Easy" && (
                           <div
-                            className={`aspect-square w-[8px] sm:w-[10px] rounded-full bg-green-600`}
+                            className={`aspect-square w-[8px] rounded-full bg-green-600 sm:w-[10px]`}
                           />
                         )}
                         {component.difficulty === "Intermediate" && (
                           <div
-                            className={`aspect-square w-[8px] sm:w-[10px] rounded-full bg-amber-400`}
+                            className={`aspect-square w-[8px] rounded-full bg-amber-400 sm:w-[10px]`}
                           />
                         )}
                         {component.difficulty === "Advanced" && (
                           <div
-                            className={`aspect-square w-[8px] sm:w-[10px] rounded-full bg-red-600`}
+                            className={`aspect-square w-[8px] rounded-full bg-red-600 sm:w-[10px]`}
                           />
                         )}
                         <div>
@@ -67,37 +67,45 @@ const COMPONENT = () => {
                   </div>
                 </div>
                 <div className="mt-5 ">
-                  <span className="text-[22px] sm:text-[28px] font-semibold ">
+                  <span className="text-[22px] font-semibold sm:text-[28px] ">
                     {component.title}
                   </span>
                 </div>
-                <div className="leading-tight my-1">
-                  <span className="text-[14px] sm:text-[16px] ">{component.description}</span>
+                <div className="my-1 leading-tight">
+                  <span className="text-[14px] sm:text-[16px] ">
+                    {component.description}
+                  </span>
                 </div>
                 <div className="my-3 flex gap-2">
                   {component.demoLink != "" && (
                     <Link href={component.demoLink} target="_blank">
-                    <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 ">
-                      <div className="flex leading-none">
-                        <span className="text-[13px] font-bold text-purple-600 ">
-                          Live Demo
-                        </span>
+                      <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 py-1 ">
+                        <div className="flex leading-none">
+                          <span className="text-[13px] font-bold text-purple-600 ">
+                            Live Demo
+                          </span>
+                        </div>
+                        <div className="flex">
+                          <ArrowOutwardRoundedIcon
+                            className=" text-purple-600"
+                            style={{ fontSize: "14px" }}
+                          />
+                        </div>
                       </div>
-                      <div className="flex">
-                        <ArrowOutwardRoundedIcon className="w-[14px] text-purple-600" />
-                      </div>
-                    </div>
-                  </Link>
+                    </Link>
                   )}
                   <Link href={component.sourceCode}>
-                    <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 ">
+                    <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 py-1 ">
                       <div className="flex leading-none">
                         <span className="text-[13px] font-bold text-purple-600 ">
                           Source Code
                         </span>
                       </div>
                       <div className="flex">
-                        <ArrowOutwardRoundedIcon className="w-[14px] text-purple-600" />
+                        <ArrowOutwardRoundedIcon
+                          className=" text-purple-600"
+                          style={{ fontSize: "14px" }}
+                        />
                       </div>
                     </div>
                   </Link>
@@ -107,7 +115,7 @@ const COMPONENT = () => {
                     autoPlay
                     muted
                     loop
-                    className=" w-[100%] sm:w-[80%] rounded-[10px] sm:rounded-[20px] object-cover"
+                    className=" w-[100%] rounded-[10px] object-cover sm:w-[80%] sm:rounded-[20px]"
                   >
                     <source src={component.introVideo} />
                   </video>

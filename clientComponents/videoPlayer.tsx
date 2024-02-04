@@ -46,11 +46,11 @@ const VIDEO_PLAYER = ({
               </video>
             </Link>
 
-            <div className="demoButton-aniamtion absolute bottom-0 right-0 z-20 m-2 flex gap-2 mix-blend-difference ">
+            <div className="demoButton-aniamtion absolute bottom-0 right-0 z-20 m-2  flex  gap-2 mix-blend-difference ">
               <Link href={sourceCodeLink} target="_blank">
                 <div
                   className="flex cursor-pointer items-center gap-1 rounded-[5px] bg-white 
-                px-2 "
+                px-2 py-1"
                 >
                   <div className="flex leading-none">
                     <span className="text-[12px] font-bold text-black ">
@@ -58,7 +58,10 @@ const VIDEO_PLAYER = ({
                     </span>
                   </div>
                   <div className="flex">
-                    <ArrowOutwardRoundedIcon className=" w-[15px] text-black" />
+                    <ArrowOutwardRoundedIcon
+                      className=" text-black"
+                      style={{ fontSize: "15px" }}
+                    />
                   </div>
                 </div>
               </Link>
@@ -68,7 +71,7 @@ const VIDEO_PLAYER = ({
                 <Link href={seeLiveLink} target="_blank">
                   <div
                     className="flex cursor-pointer items-center gap-1 rounded-[5px] bg-white 
-                  px-2 "
+                  px-2 py-1"
                   >
                     <div className="flex leading-none">
                       <span className="text-[12px] font-bold text-black ">
@@ -76,7 +79,10 @@ const VIDEO_PLAYER = ({
                       </span>
                     </div>
                     <div className="flex">
-                      <ArrowOutwardRoundedIcon className=" w-[15px] text-black" />
+                      <ArrowOutwardRoundedIcon
+                        className=" text-black"
+                        style={{ fontSize: "15px" }}
+                      />
                     </div>
                   </div>
                 </Link>
@@ -85,14 +91,16 @@ const VIDEO_PLAYER = ({
           </div>
         )}
         <div className="absolute left-0 top-0 h-[190px] w-[280px] rounded-[10px] bg-gray-400 sm:w-[340px]">
-          <Image
-            src={thumbNail}
-            alt="thumbnail"
-            unoptimized
-            className=" h-[190px] w-[280px] rounded-[10px] object-cover sm:w-[340px]"
-            width={300}
-            height={170}
-          />
+          <Link href={`collections/${componentId}`}>
+            <Image
+              src={thumbNail}
+              alt="thumbnail"
+              unoptimized
+              className=" h-[190px] w-[280px] rounded-[10px] object-cover sm:w-[340px]"
+              width={300}
+              height={170}
+            />
+          </Link>
         </div>
       </div>
     </>
