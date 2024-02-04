@@ -45,9 +45,12 @@ const VIDEO_PLAYER = ({
               </video>
             </Link>
 
-            <div className="demoButton-aniamtion absolute bottom-0 right-0 z-20 m-2 flex gap-2 ">
+            <div className="demoButton-aniamtion absolute bottom-0 right-0 z-20 m-2 flex gap-2 mix-blend-difference ">
               <Link href={sourceCodeLink} target="_blank">
-                <div className=" flex cursor-pointer items-center gap-1 rounded-[5px] bg-gray-200 px-2 py-[4px]">
+                <div
+                  className="flex cursor-pointer items-center gap-1 rounded-[5px] bg-white 
+                px-2 py-[4px]"
+                >
                   <div className="flex leading-none">
                     <span className="text-[12px] font-bold text-black ">
                       Source Code
@@ -62,7 +65,10 @@ const VIDEO_PLAYER = ({
                 ""
               ) : (
                 <Link href={seeLiveLink} target="_blank">
-                  <div className=" flex cursor-pointer items-center gap-1 rounded-[5px] bg-gray-200 px-2 py-[4px]">
+                  <div
+                    className="flex cursor-pointer items-center gap-1 rounded-[5px] bg-white 
+                  px-2 py-[4px]"
+                  >
                     <div className="flex leading-none">
                       <span className="text-[12px] font-bold text-black ">
                         See Live
