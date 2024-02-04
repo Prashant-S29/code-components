@@ -2,7 +2,6 @@ import React from "react";
 
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import SUGGESTION_FORM from "@/clientComponents/suggestionForm";
-import { sendMail } from "@/utils/sendMail";
 const SUGGESSTION = () => {
   return (
     <>

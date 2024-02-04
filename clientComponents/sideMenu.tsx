@@ -40,12 +40,12 @@ const SIDE_MENU = () => {
           }}
         >
           {closeSideMenu ? (
-            <div className="flex h-fit   w-fit rounded-[5px] bg-gray-300 p-[4px] ">
-              <LogoutRoundedIcon className="text-[20px] text-gray-700 " />
+            <div className="flex h-fit   w-fit rounded-[5px] bg-gray-300 px-[4px] py-[2px] ">
+              <LogoutRoundedIcon className="w-[18px] sm:w-[20px] text-gray-700 " />
             </div>
           ) : (
-            <div className="flex h-fit w-fit  rotate-180 rounded-[5px] bg-gray-300 p-[4px] ">
-              <LogoutRoundedIcon className="text-[20px] text-gray-700 " />
+            <div className="flex h-fit w-fit  rotate-180 rounded-[5px] bg-gray-300 px-[4px] py-[2px] ">
+              <LogoutRoundedIcon className="w-[18px] sm:w-[20px] text-gray-700 " />
             </div>
           )}
         </div>
@@ -73,11 +73,11 @@ const SIDE_MENU = () => {
             >
               {closeAll ? (
                 <div>
-                  <UnfoldMoreIcon className="flex text-[18px] text-gray-600" />
+                  <UnfoldMoreIcon className="flex w-[14px] sm:w-[16px] text-gray-600" />
                 </div>
               ) : (
                 <div>
-                  <UnfoldLessIcon className="flex text-[18px] text-gray-600" />
+                  <UnfoldLessIcon className="flex w-[14px] sm:w-[16px] text-gray-600" />
                 </div>
               )}
             </div>
@@ -91,7 +91,7 @@ const SIDE_MENU = () => {
               setCloseSideMenu={setCloseSideMenu}
             />
           ))}
-          <div className="h-[80px] w-full" />
+          <div className="h-[100px] w-full" />
         </div>
       </div>
     </>
@@ -148,7 +148,7 @@ const SIDE_MENU_CONTAINER = ({
 
           {sideMenuLinks.status === "lock" ? (
             <div className={`flex`}>
-              <LockClockRoundedIcon className="text-[18px] text-purple-700" />
+              <LockClockRoundedIcon className="w-[14px] sm:w-[16px] text-purple-700" />
             </div>
           ) : (
             <div>
@@ -156,13 +156,13 @@ const SIDE_MENU_CONTAINER = ({
                 <div
                   className={`${showLinks === index ? "rotate-0" : "-rotate-90"} flex duration-200 `}
                 >
-                  <KeyboardArrowDownRoundedIcon className="text-[18px] " />
+                  <KeyboardArrowDownRoundedIcon className="w-[14px] sm:w-[16px] " />
                 </div>
               ) : (
                 <div
                   className={`${showLinks === index ? "rotate-0" : "-rotate-90"} flex duration-200 `}
                 >
-                  <AccessTimeFilledRoundedIcon className="text-[18px] text-purple-700" />
+                  <AccessTimeFilledRoundedIcon className="w-[14px] sm:w-[16px] text-purple-700" />
                 </div>
               )}
             </div>

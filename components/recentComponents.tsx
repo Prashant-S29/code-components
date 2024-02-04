@@ -11,7 +11,7 @@ const RECENT_COMPONENTS = () => {
           <div className="text-[20px] font-bold leading-none">
             <span>✨ Popular Builds</span>
           </div>
-          <Link href="/collections">
+          <Link href="/collections" className="pr-4">
             <div className="leading-none">
               <span className="text-[12px] font-bold underline sm:text-[13px]">
                 See All
@@ -34,7 +34,7 @@ const RECENT_COMPONENTS = () => {
             <span className="text-[14px] font-bold ">See All</span>
           </div> */}
         </div>
-      <div className="h-[100px] w-full" />
+      <div className="h-[300px] w-full" />
       </div>
     </>
   );

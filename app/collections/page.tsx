@@ -25,7 +25,7 @@ const COLLECTIONS = () => {
           />
         ))}
       </div>
-      <div className="w-full h-[100px]" />
+      <div className="w-full h-[300px]" />
     </>
   );
 };

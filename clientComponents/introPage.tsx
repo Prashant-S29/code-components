@@ -21,7 +21,7 @@ const INTRO_PAGE = () => {
   return (
     <>
       <div
-        className={` fixed left-0 ${showIntroPage ? "top-0" : "-top-[100%]"} z-[99999] flex min-h-screen w-full items-center justify-center bg-white duration-300 `}
+        className={` fixed left-0 ${showIntroPage ? "top-0" : "-top-[150%]"} z-[99999] flex min-h-screen w-full items-center justify-center bg-white duration-300 `}
       >
         <div
           className={`absolute ${

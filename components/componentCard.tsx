@@ -23,7 +23,7 @@ const COMPONENT_CARD = ({
   return (
     <>
       <div key={index} className="rounded-[20px]  py-3">
-        <div className="mt-0 pb-0 duration-300 hover:-mt-2 hover:pb-2">
+        <div className="mt-0 pb-0">
           <VIDEO_PLAYER
             videoLink={componentDetails.introVideo}
             thumgNail={componentDetails.thumbNail}

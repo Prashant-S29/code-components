@@ -117,7 +117,7 @@ const COMPONENT = () => {
           </div>
         ))}
       </div>
-      <div className="h-[100px] w-full" />
+      <div className="h-[200px] w-full" />
     </>
   );
 };
