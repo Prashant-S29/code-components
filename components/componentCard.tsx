@@ -26,7 +26,7 @@ const COMPONENT_CARD = ({
         <div className="mt-0 pb-0">
           <VIDEO_PLAYER
             videoLink={componentDetails.introVideo}
-            thumgNail={componentDetails.thumbNail}
+            thumbNail={componentDetails.thumbNail}
             sourceCodeLink={componentDetails.sourceCode}
             seeLiveLink={componentDetails.demoLink}
             componentId={componentDetails.componentId}

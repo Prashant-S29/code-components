@@ -77,27 +77,27 @@ const COMPONENT = () => {
                 <div className="my-3 flex gap-2">
                   {component.demoLink != "" && (
                     <Link href={component.demoLink} target="_blank">
-                    <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 py-1">
+                    <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 ">
                       <div className="flex leading-none">
                         <span className="text-[13px] font-bold text-purple-600 ">
                           Live Demo
                         </span>
                       </div>
                       <div className="flex">
-                        <ArrowOutwardRoundedIcon className="text-[14px] text-purple-600" />
+                        <ArrowOutwardRoundedIcon className="w-[14px] text-purple-600" />
                       </div>
                     </div>
                   </Link>
                   )}
                   <Link href={component.sourceCode}>
-                    <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 py-1">
+                    <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 ">
                       <div className="flex leading-none">
                         <span className="text-[13px] font-bold text-purple-600 ">
                           Source Code
                         </span>
                       </div>
                       <div className="flex">
-                        <ArrowOutwardRoundedIcon className="text-[14px] text-purple-600" />
+                        <ArrowOutwardRoundedIcon className="w-[14px] text-purple-600" />
                       </div>
                     </div>
                   </Link>

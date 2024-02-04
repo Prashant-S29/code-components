@@ -40,12 +40,12 @@ const SIDE_MENU = () => {
           }}
         >
           {closeSideMenu ? (
-            <div className="flex h-fit   w-fit rounded-[5px] bg-gray-300 p-1 ">
-              <LogoutRoundedIcon fontSize="small" className=" text-gray-700 " />
+            <div className="flex h-fit   w-fit rounded-[5px] bg-gray-300 px-1 ">
+              <LogoutRoundedIcon  className="w-[18px]  text-gray-700 " />
             </div>
           ) : (
-            <div className="flex h-fit w-fit  rotate-180 rounded-[5px] bg-gray-300 p-1 ">
-              <LogoutRoundedIcon fontSize="small" className=" text-gray-700 " />
+            <div className="flex h-fit w-fit  rotate-180 rounded-[5px] bg-gray-300 px-1 ">
+              <LogoutRoundedIcon  className="w-[18px]  text-gray-700 " />
             </div>
           )}
         </div>
@@ -73,11 +73,11 @@ const SIDE_MENU = () => {
             >
               {closeAll ? (
                 <div>
-                  <UnfoldMoreIcon fontSize="small" className="flex text-gray-600" />
+                  <UnfoldMoreIcon  className="w-[15px] flex text-gray-600" />
                 </div>
               ) : (
                 <div>
-                  <UnfoldLessIcon fontSize="small" className="flex text-gray-600" />
+                  <UnfoldLessIcon  className="w-[15px] flex text-gray-600" />
                 </div>
               )}
             </div>

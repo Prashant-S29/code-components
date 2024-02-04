@@ -27,14 +27,14 @@ const TAG_SECTION = () => {
             }}
           >
             <Link href={tag.href}>
-              <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 py-[2px]">
-                <div className="leading-none">
+              <div className=" flex items-center gap-1 rounded-md bg-purple-200 px-2 py-[1px]">
+                <div className="leading-none flex">
                   <span className="text-[12px] sm:text-[13px] font-bold text-purple-600 ">
                     {tag.text}
                   </span>
                 </div>
                 <div className="flex">
-                  <ArrowOutwardRoundedIcon fontSize="small" className=" text-purple-600" />
+                  <ArrowOutwardRoundedIcon  className="w-[15px] text-purple-600" />
                 </div>
               </div>
             </Link>
