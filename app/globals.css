@@ -2,32 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+::-webkit-scrollbar {
+  width: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.noScrollBar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.sideMenuScrollbar::-webkit-scrollbar {
+  width: 7px !important;
+  border-radius: 100px;
+}
+
+.sideMenuScrollbar::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+.sideMenuScrollbar::-webkit-scrollbar-track-piece {
+  background: #ffffff;
+  border-radius: 100px;
+}
+.sideMenuScrollbar::-webkit-scrollbar-thumb {
+  background: #adadad;
+  border-radius: 100px;
+}
+
+.demoButton-aniamtion {
+  animation: fade 0.2s linear 1;
+}
+
+@keyframes fade {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.loading-animation {
+  animation: load 2s linear 1;
+  animation-delay: 1s;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@keyframes load {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+.formStateMessage {
+  animation: fadeUp 0.5s linear 1;
+}
+@keyframes fadeUp {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
