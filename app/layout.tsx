@@ -12,9 +12,26 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Code-Components",
   description: "Awesome components made in React & NextJS",
+  openGraph: {
+    type: "website",
+    url: "https://www.code-components.in/",
+    title: "Code-Components",
+    description: "Awesome components made in React & NextJS",
+    siteName: "Prashant's Website",
+    images: [
+      {
+        url: "https://res.cloudinary.com/denl2iizs/image/upload/v1707109433/swclaubtfn0udm6apgwy.png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "Code-Components",
+    creator: "Prashant Singh",
+    images: "https://res.cloudinary.com/denl2iizs/image/upload/v1707109433/swclaubtfn0udm6apgwy.png",
+  },
   
 };
-
 
 export default function WITH_NAV_ROOT_LAYOUT({
   children,
