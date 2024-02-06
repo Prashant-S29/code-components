@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
@@ -28,9 +30,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "Code-Components",
     creator: "Prashant Singh",
-    images: "https://res.cloudinary.com/denl2iizs/image/upload/v1707109433/swclaubtfn0udm6apgwy.png",
+    images:
+      "https://res.cloudinary.com/denl2iizs/image/upload/v1707109433/swclaubtfn0udm6apgwy.png",
   },
-  
 };
 
 export default function WITH_NAV_ROOT_LAYOUT({
@@ -51,6 +53,7 @@ export default function WITH_NAV_ROOT_LAYOUT({
             <div className="ml-[50px]  h-screen w-full overflow-y-scroll px-2 pt-7  max-[350px]:ml-0">
               <NextBreadcrumb />
               {children}
+              <Analytics />
               {/* <div className="w-full h-[100px]" /> */}
             </div>
           </div>
