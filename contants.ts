@@ -96,11 +96,6 @@ const sideMenu: {
     ],
     status: "available",
   },
-  // {
-  //   category: "Text",
-  //   links: [],
-  //   status: "soon",
-  // },
   {
     category: "Scroll",
     links: [
@@ -160,9 +155,9 @@ const allComponents: {
   {
     componentId: "fix-studio-landing-page",
     introVideo:
-      "https://res.cloudinary.com/denl2iizs/video/upload/v1706330818/dasup8clnsmy1wcus69p.mp4",
+      "https://res.cloudinary.com/da7mz2ivn/video/upload/v1710057227/code-components/hgmnnxeqx9nnnhqm2cae.mp4",
     thumbNail:
-      "https://res.cloudinary.com/denl2iizs/image/upload/v1706330816/mljlq62cqmfyeevpkx9v.png",
+      "https://res.cloudinary.com/da7mz2ivn/image/upload/v1710057189/code-components/zgojk0j7ocdzqgbqaxhx.png",
     demoLink: "https://fix-studio-landing-page.vercel.app/",
     sourceCode: "https://github.com/Prashant-S29/fix-studio-landing-page.git",
     date: "January 27, 2024",
@@ -175,9 +170,9 @@ const allComponents: {
   {
     componentId: "grid-menu",
     introVideo:
-      "https://res.cloudinary.com/denl2iizs/video/upload/v1705845342/cisgc06qcei2b1aokptx.mp4",
+      "https://res.cloudinary.com/da7mz2ivn/video/upload/v1710058396/code-components/q8wih9yifh6akxjhy2tc.mp4",
     thumbNail:
-      "https://res.cloudinary.com/denl2iizs/image/upload/v1705845692/cccrow7qwsfo3fooy5ni.png",
+      "https://res.cloudinary.com/da7mz2ivn/image/upload/v1710057189/code-components/svceo2ekvom2h8dmumjz.png",
     demoLink: "https://grid-menu.vercel.app/",
     sourceCode: "https://github.com/Prashant-S29/grid-menu.git",
     date: "January 22, 2024",
@@ -190,9 +185,9 @@ const allComponents: {
   {
     componentId: "painting-effect",
     introVideo:
-      "https://res.cloudinary.com/denl2iizs/video/upload/v1706018364/ertnyp2nydifgkaggtkm.mp4",
+      "https://res.cloudinary.com/da7mz2ivn/video/upload/v1710057210/code-components/wtjhwbu3mxs0yyf8yt5y.mp4",
     thumbNail:
-      "https://res.cloudinary.com/denl2iizs/image/upload/v1706018362/wfvhubn9ghizc2yvnmvk.png",
+      "https://res.cloudinary.com/da7mz2ivn/image/upload/v1710057189/code-components/n1w7pcbl6pbuk9oac4dk.png",
     demoLink: "https://painting-effect.vercel.app/",
     sourceCode: "https://github.com/Prashant-S29/painting-effect.git",
     date: "January 15, 2024",
@@ -205,9 +200,9 @@ const allComponents: {
   {
     componentId: "text-opacity-on-scroll",
     introVideo:
-      "https://res.cloudinary.com/denl2iizs/video/upload/v1706025626/pxckrzos3ujx1mwdunoe.mp4",
+      "https://res.cloudinary.com/da7mz2ivn/video/upload/v1710057208/code-components/d4lk0oqn5dwkauehzwxf.mp4",
     thumbNail:
-      "https://res.cloudinary.com/denl2iizs/image/upload/v1706025624/bzw57odvndnv9wh5nhpd.png",
+      "https://res.cloudinary.com/da7mz2ivn/image/upload/v1710057189/code-components/le92j2drsuwngj7gjqyz.png",
     demoLink: "https://text-opacity-on-scroll.vercel.app",
     sourceCode: "https://github.com/Prashant-S29/Text-opacity-on-scroll.git",
     date: "January 03, 2024",
@@ -219,9 +214,9 @@ const allComponents: {
   {
     componentId: "scroll-triggered-image-gallery",
     introVideo:
-      "https://res.cloudinary.com/denl2iizs/video/upload/v1706074236/iz1bqobmpvbn4whez3ye.mp4",
+      "https://res.cloudinary.com/da7mz2ivn/video/upload/v1710057228/code-components/s2x4pfma0nlaovsozmut.mp4",
     thumbNail:
-      "https://res.cloudinary.com/denl2iizs/image/upload/v1706074213/yh8zqbdsjdsaatxtadfq.png",
+      "https://res.cloudinary.com/da7mz2ivn/image/upload/v1710057191/code-components/qg78g5ijsbwqtt0icctf.png",
     demoLink: "https://gasp-image-gallery.vercel.app/",
     sourceCode: "https://github.com/Prashant-S29/gasp-image-gallery.git",
     date: "December 28, 2023",
@@ -234,9 +229,9 @@ const allComponents: {
   {
     componentId: "emoji-mouse-trail-effect",
     introVideo:
-      "https://res.cloudinary.com/denl2iizs/video/upload/v1706341098/l5gxra1igjv5rwjs46mo.mp4",
+      "https://res.cloudinary.com/da7mz2ivn/video/upload/v1710057195/code-components/eynxicqkts7ru4iphb9n.mp4",
     thumbNail:
-      "https://res.cloudinary.com/denl2iizs/image/upload/v1706341097/xxysw8visvrop5cpsdta.png",
+      "https://res.cloudinary.com/da7mz2ivn/image/upload/v1710057188/code-components/t4m9z6k26hklrcz5uziv.png",
     demoLink: "",
     sourceCode:
       "https://github.com/Prashant-S29/basic-components/tree/main/emojy-mouse-trail",
