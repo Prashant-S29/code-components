@@ -13,10 +13,7 @@ const navLinks: {
         href: "/collections",
         text: "Demos",
       },
-      {
-        href: "https://github.com/Prashant-S29",
-        text: "Resources",
-      },
+      
     ],
   },
   {
@@ -27,7 +24,11 @@ const navLinks: {
         text: "LinkedIn",
       },
       {
-        href: "https://www.instagram.com/prashant.o29o/",
+        href: "https://github.com/Prashant-S29",
+        text: "Github",
+      },
+      {
+        href: "https://www.instagram.com/web_with_prashant/",
         text: "Instagram",
       },
       {

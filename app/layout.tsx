@@ -43,6 +43,7 @@ export default function WITH_NAV_ROOT_LAYOUT({
   return (
     <html lang="en">
       <body className={`${montserrat.className} bg-[#f4f4f4] `}>
+        
         <div>
           <INTRO_PAGE />
           <NAVBAR />
